@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="{{.Keywords}}" />
+    <meta name="author" content="bisnis.tech" />    
+    <meta name="description" content="{{ .Description}}" />
+    
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="{{.Site.BaseURL}}/images/favicon.html" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{.Site.BaseURL}}/images/favicon.png" />
+    
+    <!-- PAGE TITLE HERE -->
+    <title>{{ .Title }}</title>
+    
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/bootstrap.min.css">
+    <!-- FONTAWESOME STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/fontawesome/css/font-awesome.min.css" />
+
+    <!-- OWL CAROUSEL STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/owl.carousel.min.css">
+    <!-- BOOTSTRAP SLECT BOX STYLE SHEET  -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/bootstrap-select.min.css">    
+    <!-- MAGNIFIC POPUP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/magnific-popup.min.css">
+    <!-- LOADER STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/loader.min.css">    
+    <!-- MAIN STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/style.css">
+        <!-- FLATICON STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/flaticon.min.css">   
+    
+    <!-- THEME COLOR CHANGE STYLE SHEET -->
+    <link rel="stylesheet" class="skin" type="text/css" href="{{.Site.BaseURL}}/css/skin/skin-7.css">
+    <!-- SIDE SWITCHER STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/switcher.css">    
+ 
+     <!-- REVOLUTION SLIDER CSS -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/plugins/revolution/revolution/css/settings.css">
+    <!-- REVOLUTION NAVIGATION STYLE -->
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/plugins/revolution/revolution/css/navigation.css">
+        
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&amp;display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap" rel="stylesheet">   
+
+</head>
+
+<body class="footer-fixed">
+    <div class="page-wraper">
+
+        <!-- HEADER START -->
+        <header class="site-header header-style-2 mobile-sider-drawer-menu">      
+            <div class="top-bar site-bg-secondry">
+                <div class="container">
+                        <div class="d-flex justify-content-between">
+                            <div class="wt-topbar-left d-flex flex-wrap align-content-start">
+                                <ul class="wt-topbar-info e-p-bx text-white">
+                                    <li><span>Senin – Jumat</span><span>8:30 AM – 16:30 PM</span></li>
+                                    <li><span>Sabtu</span><span>8:30 AM – 14:00 PM</span></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="wt-topbar-right d-flex flex-wrap align-content-center">
+                                <ul class="wt-topbar-info-2 e-p-bx text-white">
+                                    <li>
+                                        <a href="tel:+62217356692" style="color:white ;">
+                                            <i class="fa fa-phone"></i> +62 21 - 735 66 92
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:sales@kohlerindo.co.id" style="color:white ;">
+                                            <i class="fa fa-envelope"></i> sales@kohlerindo.co.id
+                                        </a>
+                                    </li>
+                                </ul> 
+                
+                                <ul class="social-icons">
+                                    <li><a href="https://www.facebook.com/kohlerindoprima" class="fa fa-facebook"></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCEMnVdaCVrAJ4NOMRXL1FQw" class="fa fa-youtube"></a></li>
+                                    <li><a href="https://www.instagram.com/kohlerindoprima" class="fa fa-instagram"></a></li>
+                                </ul> 
+                                                                          
+                            </div>
+                        </div>
+
+                </div>
+            </div>  
+                       
+           <div class="sticky-header main-bar-wraper  navbar-expand-lg">
+                <div class="main-bar">                       
+                       <div class="container clearfix"> 
+                       
+                            <div class="logo-header">
+                                <div class="logo-header-inner logo-header-one">
+                                    <a href="{{.Site.BaseURL}}">
+                                        <img src="{{.Site.BaseURL}}/images/kohlerindo-logo.png" alt="logo PT Kohlerindo Prima" />
+                                    </a>
+                                </div>
+                            </div>  
+                            
+                            <!-- NAV Toggle Button -->
+                            <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar icon-bar-first"></span>
+                                <span class="icon-bar icon-bar-two"></span>
+                                <span class="icon-bar icon-bar-three"></span>
+                            </button> 
+                                                       
+                            <div class="extra-nav header-2-nav">
+                                <div class="extra-cell">                                    
+                                    <div class="header-nav-request">
+                                        <a href="#" class="contact-slide-show"> Kontak Sales <i class="fa fa-angle-right"></i></a>
+                                    </div>                                
+                                </div>                                 
+                             </div>                                                                       
+
+                             
+                            <!-- MAIN Vav -->
+                            <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
+                        
+                                <ul class=" nav navbar-nav">
+                                    <li><a href="{{.Site.BaseURL}}/tentang-kami">Tentang Kami</a></li>                                    
+                                    <li><a href="{{.Site.BaseURL}}/aritco">Aritco</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{.Site.BaseURL}}/aritco/6000">Aritco 6000</a></li>
+                                            <li><a href="{{.Site.BaseURL}}/aritco/7000">Aritco 7000</a></li>
+                                            <li><a href="{{.Site.BaseURL}}/aritco/home-lift">Aritco Home Lift</a></li>
+                                        </ul>                                
+                                    </li>           
+                                    <li><a href="{{.Site.BaseURL}}/kohler">Kohler</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{.Site.BaseURL}}/kohler/on-cue">On Cue</a></li>
+                                            <li><a href="{{.Site.BaseURL}}/kohler/8-10-12-resv">8-10-12 RESV</a></li>
+                                            <li><a href="{{.Site.BaseURL}}/kohler/14-20-res">14-20 RES</a></li>
+                                            <li><a href="{{.Site.BaseURL}}/kohler/24-38-48-60-rcl">24-38-48-60 RCL</a></li>
+                                        </ul>                                
+                                    </li>                         
+                                    <li><a href="javascript:;">Layanan</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{.Site.BaseURL}}/layanan/instalasi">Instalasi</a></li>                                        
+                                            <li><a href="{{.Site.BaseURL}}/layanan/servis-dan-perawatan">Servis Dan Perawatan</a></li>
+                                            <li><a href="{{.Site.BaseURL}}/layanan/sistem-gas">Sistem Gas</a></li>
+                                            <li><a href="{{.Site.BaseURL}}/layanan/panel-ats">Panel ATS</a></li>                                          
+                                                                                       
+                                        </ul>                                
+                                    </li>
+                                    <li><a href="javascript:;">Project</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="project-grid.html">Project Grid</a></li>                                        
+                                            <li><a href="project-masonry.html">Project Masonry</a></li>
+                                            <li><a href="project-carousel.html">Project Carousel</a></li>
+                                            <li><a href="project-detail.html">Project Detail</a>
+                                        </ul>                                
+                                   </li>
+                                    <li><a href="{{.Site.BaseURL}}/blog">Blog</a></li>
+                                    <li><a href="{{.Site.BaseURL}}/hubungi-kami">Hubungi Kami</a></li>
+                                    <li><a href="{{.Site.BaseURL}}/lowongan-kerja">Karir</a></li>    
+                                </ul>
+    
+                            </div>                           
+                            
+                        </div>    
+                    </div>
+                    
+            </div>
+            
+        </header>
+        <!-- HEADER END -->
+
+        <div class="page-content">

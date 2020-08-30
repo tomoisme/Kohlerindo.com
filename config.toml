@@ -1,0 +1,10 @@
+baseURL = ""
+languageCode = "ID-id"
+title = ""
+disableKinds = ["RSS"]
+theme = "industro"
+paginate = 5
+
+[taxonomies]
+    tag = "tag"
+
