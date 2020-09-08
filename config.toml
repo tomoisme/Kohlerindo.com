@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://hostingtekno.com/dev/kohlerindo"
 languageCode = "ID-id"
 title = ""
 disableKinds = ["RSS"]
