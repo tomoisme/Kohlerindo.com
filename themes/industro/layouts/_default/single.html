@@ -2,21 +2,24 @@
 
 <!-- CONTENT -->
 <div id="page-content">
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <h1>{{ .Title }}</h1>
-                <div class="p-justify">
-                    {{ .Content }}
+    <div style="height:45px; width:auto; background:black;"></div>
+    <div class="section-page p-t80 p-b80">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1>{{ .Title }}</h1>
+                    <div class="p-justify">
+                        {{ .Content }}
+                    </div>
+                    <br>
+                    <p>
+                        Tagar:
+                        {{ $siteurl := .Site.BaseURL }}
+                        {{ range .Params.tagar }}
+                        #<a href="{{ $siteurl }}tagar/{{ . | urlize }}">{{ . }}</a>
+                        {{ end }}
+                    </p>
                 </div>
-                <br>
-                <p>
-                    Tagar:
-                    {{ $siteurl := .Site.BaseURL }}
-                    {{ range .Params.tagar }}
-                    #<a href="{{ $siteurl }}tagar/{{ . | urlize }}">{{ . }}</a>
-                    {{ end }}
-                </p>
             </div>
         </div>
     </div>
